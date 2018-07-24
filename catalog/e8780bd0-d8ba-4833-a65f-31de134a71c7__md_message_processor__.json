@@ -1,0 +1,16 @@
+{
+    "inputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "SlackEvent"
+        }
+    },
+    "outputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "SimpleSlackMessage"
+        }
+    },
+    "id": "e8780bd0-d8ba-4833-a65f-31de134a71c7",
+    "version": "5.2.0.0"
+}

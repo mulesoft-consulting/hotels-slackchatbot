@@ -1,0 +1,27 @@
+#%RAML 1.0
+baseUri: https://mocksvc.mulesoft.com/mocks/41b7dae5-c954-40ea-8e79-65aa93595ecf # 
+title: LV Slack Adapter
+
+/messages:
+  description: Slack will post messages here
+  post:
+    body: 
+      application/json:
+        example: |
+          {
+            "token": "sdfasdfasdfd13r3",
+            "challenge": "asdfasdf32rf2fasdfasdfasdf32",
+            "type": "url_verification"
+          }
+    responses: 
+      200:
+        body: 
+          application/json:
+            example: |
+              {
+                "challenge" : "123dsaf"
+              }
+
+  
+
+    
